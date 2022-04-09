@@ -32,5 +32,11 @@ nav ul {
 
 nav li {
     display: inline-flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+nav li a {
     text-decoration: underline;
+    font-size: 22px;
 }
