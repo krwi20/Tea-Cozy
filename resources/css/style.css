@@ -1,0 +1,148 @@
+* {
+    opacity: 0.9;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    align-items: center;
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: black;
+}
+
+.header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.header-nav {
+    float: right;
+}
+
+.header-nav li {
+    height: 50px;
+    display: inline;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+/* MAIN */
+
+/* MISSION SECTION */
+
+.container-mission-1 {
+    background: no-repeat url("/resources/images/img-mission-background.jpeg");
+    height: 700px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 69px;
+}
+
+.container-mission {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* TEA SECTION */
+
+.container-tea-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container-tea-of-the-month {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.tea-img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+.container-tea-of-the-month-image-container {
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-tea-of-the-month-image {
+    text-align: center;
+}
+
+/* LOCATION SECTION */
+
+.con {
+    margin-bottom: 20px;
+}
+
+.location {
+    background-image: url("/resources/images/img-locations-background.jpeg");
+    border: 1px solid seashell;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-location {
+    display: inline-flex;
+    justify-content: center;
+    min-width: 100%;
+    flex-wrap: wrap;
+}
+
+.container-location-info-box {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* CONTACT */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+    align-content: space-between;
+    padding-bottom: 50px;
+}
+
+.footer {
+    border: 1px solid seashell;
+}
